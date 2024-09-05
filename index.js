@@ -16,7 +16,7 @@ const mailtransport=nodemailer.createTransport({
 })
 const sendemail=(toEmail)=>{
 const message={
-    from:'jaharuddin269@gmail.com',
+    from:'',
     to:toEmail,
     subject:'testing node_mailer',
     html:'first time i use node-mailer you also learn it essay way'
