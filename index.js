@@ -10,8 +10,8 @@ const mailtransport=nodemailer.createTransport({
     host:`smtp.gmail.com`,
     port:465,
     auth:{
-        user:'jaharuddin269@gmail.com',
-        pass:'cjkp giop ogig plja'
+        user:'',
+        pass:''
     }
 })
 const sendemail=(toEmail)=>{
